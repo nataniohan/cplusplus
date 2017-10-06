@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<math.h>
+#include<stdlib.h>
+#include<conio.h>
+main(){
+       int vezes,acumuladora,conta,numero;
+       float soma,somadevalor,x,valoralto;
+       acumuladora=0;
+       somadevalor=0;
+       x=0;
+       
+       printf("digite a quantidade de vezes que deseja digitar a conta e seu valor : ");
+       scanf("%d",&vezes);
+      do{
+                                acumuladora=acumuladora+1;
+                                 printf("\n\ndigite o numero da conta : ");
+                                scanf("%d",&conta);
+                                 printf("digite o valor da conta : ");
+                                scanf("%f",&soma);
+                                        if (x<soma)
+                                        {x=soma;
+                                        numero=conta;}
+                                somadevalor=somadevalor+soma;
+                                } while(acumuladora<vezes);
+       printf("\n\na soma de todos os valores digitador e : R$ %4.2f \n\n",somadevalor);
+       printf("\nvalor maior digitado e %4.0f",x);
+       printf("\ne o numero da conta com o maior valor he %d \n\n",numero);
+       system("pause");
+       return 0; }
