@@ -1,2 +1,2 @@
 # cplusplus
-source at c++
+this code is for do counts 
