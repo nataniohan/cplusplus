@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<conio.h>
 main(){
-       int seila,acumuladora,conta,numero;
+       int vezes,acumuladora,conta,numero;
        float soma,somadevalor,x,valoralto;
        acumuladora=0;
        somadevalor=0;
